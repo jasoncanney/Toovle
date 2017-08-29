@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17141BF319E1F9440056ED92 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 17141BF219E1F9440056ED92 /* libsqlite3.dylib */; };
+		17141BF619E1F9700056ED92 /* TagSvcSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 17141BF519E1F9700056ED92 /* TagSvcSQLite.m */; };
+		17141BF819E200430056ED92 /* SQLtests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17141BF719E200430056ED92 /* SQLtests.m */; };
+		1737055E19D7B2A300A7139F /* TagSvcArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737055D19D7B2A300A7139F /* TagSvcArchive.m */; };
+		17C30C2B19C671A500522BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C30C2A19C671A500522BA5 /* Foundation.framework */; };
+		17C30C2D19C671A500522BA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C30C2C19C671A500522BA5 /* CoreGraphics.framework */; };
+		17C30C2F19C671A500522BA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C30C2E19C671A500522BA5 /* UIKit.framework */; };
+		17C30C3519C671A500522BA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17C30C3319C671A500522BA5 /* InfoPlist.strings */; };
+		17C30C3719C671A500522BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C30C3619C671A500522BA5 /* main.m */; };
+		17C30C3B19C671A500522BA5 /* iRememberAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C30C3A19C671A500522BA5 /* iRememberAppDelegate.m */; };
+		17C30C3E19C671A500522BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C30C3C19C671A500522BA5 /* Main.storyboard */; };
+		17C30C4119C671A500522BA5 /* iRememberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C30C4019C671A500522BA5 /* iRememberViewController.m */; };
+		17C30C4319C671A500522BA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C30C4219C671A500522BA5 /* Images.xcassets */; };
+		17C30C4A19C671A500522BA5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C30C4919C671A500522BA5 /* XCTest.framework */; };
+		17C30C4B19C671A500522BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C30C2A19C671A500522BA5 /* Foundation.framework */; };
+		17C30C4C19C671A500522BA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C30C2E19C671A500522BA5 /* UIKit.framework */; };
+		17C30C5419C671A500522BA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17C30C5219C671A500522BA5 /* InfoPlist.strings */; };
+		17C30C5619C671A500522BA5 /* iRememberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C30C5519C671A500522BA5 /* iRememberTests.m */; };
+		17C30C6219C673DC00522BA5 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C30C6119C673DC00522BA5 /* Tag.m */; };
+		17FDAA6619CF252800519D3E /* iRememberMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDAA6519CF252800519D3E /* iRememberMainController.m */; };
+		17FDAA6919CF3A8800519D3E /* iRememberFindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDAA6819CF3A8800519D3E /* iRememberFindController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C30C4D19C671A500522BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C30C1F19C671A500522BA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C30C2619C671A500522BA5;
+			remoteInfo = iRemember;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17141BF219E1F9440056ED92 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		17141BF419E1F9700056ED92 /* TagSvcSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagSvcSQLite.h; sourceTree = "<group>"; };
+		17141BF519E1F9700056ED92 /* TagSvcSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagSvcSQLite.m; sourceTree = "<group>"; };
+		17141BF719E200430056ED92 /* SQLtests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLtests.m; sourceTree = "<group>"; };
+		1737055C19D7B2A300A7139F /* TagSvcArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagSvcArchive.h; sourceTree = "<group>"; };
+		1737055D19D7B2A300A7139F /* TagSvcArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagSvcArchive.m; sourceTree = "<group>"; };
+		17C30C2719C671A500522BA5 /* iRemember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRemember.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C30C2A19C671A500522BA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17C30C2C19C671A500522BA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17C30C2E19C671A500522BA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17C30C3219C671A500522BA5 /* iRemember-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRemember-Info.plist"; sourceTree = "<group>"; };
+		17C30C3419C671A500522BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17C30C3619C671A500522BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17C30C3819C671A500522BA5 /* iRemember-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRemember-Prefix.pch"; sourceTree = "<group>"; };
+		17C30C3919C671A500522BA5 /* iRememberAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRememberAppDelegate.h; sourceTree = "<group>"; };
+		17C30C3A19C671A500522BA5 /* iRememberAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRememberAppDelegate.m; sourceTree = "<group>"; };
+		17C30C3D19C671A500522BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17C30C3F19C671A500522BA5 /* iRememberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRememberViewController.h; sourceTree = "<group>"; };
+		17C30C4019C671A500522BA5 /* iRememberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRememberViewController.m; sourceTree = "<group>"; };
+		17C30C4219C671A500522BA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17C30C4819C671A500522BA5 /* iRememberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRememberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C30C4919C671A500522BA5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17C30C5119C671A500522BA5 /* iRememberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRememberTests-Info.plist"; sourceTree = "<group>"; };
+		17C30C5319C671A500522BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17C30C5519C671A500522BA5 /* iRememberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRememberTests.m; sourceTree = "<group>"; };
+		17C30C6019C673DC00522BA5 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		17C30C6119C673DC00522BA5 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
+		17C30C6319C6749300522BA5 /* TagSvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagSvc.h; sourceTree = "<group>"; };
+		17FDAA6419CF252800519D3E /* iRememberMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRememberMainController.h; sourceTree = "<group>"; };
+		17FDAA6519CF252800519D3E /* iRememberMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRememberMainController.m; sourceTree = "<group>"; };
+		17FDAA6719CF3A8800519D3E /* iRememberFindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRememberFindController.h; sourceTree = "<group>"; };
+		17FDAA6819CF3A8800519D3E /* iRememberFindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRememberFindController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C30C2419C671A500522BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17141BF319E1F9440056ED92 /* libsqlite3.dylib in Frameworks */,
+				17C30C2D19C671A500522BA5 /* CoreGraphics.framework in Frameworks */,
+				17C30C2F19C671A500522BA5 /* UIKit.framework in Frameworks */,
+				17C30C2B19C671A500522BA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C30C4519C671A500522BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C30C4A19C671A500522BA5 /* XCTest.framework in Frameworks */,
+				17C30C4C19C671A500522BA5 /* UIKit.framework in Frameworks */,
+				17C30C4B19C671A500522BA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C30C1E19C671A500522BA5 = {
+			isa = PBXGroup;
+			children = (
+				17C30C3019C671A500522BA5 /* iRemember */,
+				17C30C4F19C671A500522BA5 /* iRememberTests */,
+				17C30C2919C671A500522BA5 /* Frameworks */,
+				17C30C2819C671A500522BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17C30C2819C671A500522BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C30C2719C671A500522BA5 /* iRemember.app */,
+				17C30C4819C671A500522BA5 /* iRememberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C30C2919C671A500522BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17141BF219E1F9440056ED92 /* libsqlite3.dylib */,
+				17C30C2A19C671A500522BA5 /* Foundation.framework */,
+				17C30C2C19C671A500522BA5 /* CoreGraphics.framework */,
+				17C30C2E19C671A500522BA5 /* UIKit.framework */,
+				17C30C4919C671A500522BA5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17C30C3019C671A500522BA5 /* iRemember */ = {
+			isa = PBXGroup;
+			children = (
+				17C30C5F19C671B600522BA5 /* Model */,
+				17C30C3919C671A500522BA5 /* iRememberAppDelegate.h */,
+				17C30C3A19C671A500522BA5 /* iRememberAppDelegate.m */,
+				17C30C3C19C671A500522BA5 /* Main.storyboard */,
+				17FDAA6719CF3A8800519D3E /* iRememberFindController.h */,
+				17FDAA6819CF3A8800519D3E /* iRememberFindController.m */,
+				17FDAA6419CF252800519D3E /* iRememberMainController.h */,
+				17FDAA6519CF252800519D3E /* iRememberMainController.m */,
+				17C30C3F19C671A500522BA5 /* iRememberViewController.h */,
+				17C30C4019C671A500522BA5 /* iRememberViewController.m */,
+				17C30C4219C671A500522BA5 /* Images.xcassets */,
+				17C30C3119C671A500522BA5 /* Supporting Files */,
+			);
+			path = iRemember;
+			sourceTree = "<group>";
+		};
+		17C30C3119C671A500522BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C30C3219C671A500522BA5 /* iRemember-Info.plist */,
+				17C30C3319C671A500522BA5 /* InfoPlist.strings */,
+				17C30C3619C671A500522BA5 /* main.m */,
+				17C30C3819C671A500522BA5 /* iRemember-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17C30C4F19C671A500522BA5 /* iRememberTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C30C5519C671A500522BA5 /* iRememberTests.m */,
+				17141BF719E200430056ED92 /* SQLtests.m */,
+				17C30C5019C671A500522BA5 /* Supporting Files */,
+			);
+			path = iRememberTests;
+			sourceTree = "<group>";
+		};
+		17C30C5019C671A500522BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C30C5119C671A500522BA5 /* iRememberTests-Info.plist */,
+				17C30C5219C671A500522BA5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17C30C5F19C671B600522BA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17C30C6019C673DC00522BA5 /* Tag.h */,
+				17C30C6119C673DC00522BA5 /* Tag.m */,
+				17C30C6319C6749300522BA5 /* TagSvc.h */,
+				1737055C19D7B2A300A7139F /* TagSvcArchive.h */,
+				1737055D19D7B2A300A7139F /* TagSvcArchive.m */,
+				17141BF419E1F9700056ED92 /* TagSvcSQLite.h */,
+				17141BF519E1F9700056ED92 /* TagSvcSQLite.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C30C2619C671A500522BA5 /* iRemember */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C30C5919C671A500522BA5 /* Build configuration list for PBXNativeTarget "iRemember" */;
+			buildPhases = (
+				17C30C2319C671A500522BA5 /* Sources */,
+				17C30C2419C671A500522BA5 /* Frameworks */,
+				17C30C2519C671A500522BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRemember;
+			productName = iRemember;
+			productReference = 17C30C2719C671A500522BA5 /* iRemember.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C30C4719C671A500522BA5 /* iRememberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C30C5C19C671A500522BA5 /* Build configuration list for PBXNativeTarget "iRememberTests" */;
+			buildPhases = (
+				17C30C4419C671A500522BA5 /* Sources */,
+				17C30C4519C671A500522BA5 /* Frameworks */,
+				17C30C4619C671A500522BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C30C4E19C671A500522BA5 /* PBXTargetDependency */,
+			);
+			name = iRememberTests;
+			productName = iRememberTests;
+			productReference = 17C30C4819C671A500522BA5 /* iRememberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C30C1F19C671A500522BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iRemember;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TooVle;
+				TargetAttributes = {
+					17C30C4719C671A500522BA5 = {
+						TestTargetID = 17C30C2619C671A500522BA5;
+					};
+				};
+			};
+			buildConfigurationList = 17C30C2219C671A500522BA5 /* Build configuration list for PBXProject "iRemember" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C30C1E19C671A500522BA5;
+			productRefGroup = 17C30C2819C671A500522BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C30C2619C671A500522BA5 /* iRemember */,
+				17C30C4719C671A500522BA5 /* iRememberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C30C2519C671A500522BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C30C4319C671A500522BA5 /* Images.xcassets in Resources */,
+				17C30C3519C671A500522BA5 /* InfoPlist.strings in Resources */,
+				17C30C3E19C671A500522BA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C30C4619C671A500522BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C30C5419C671A500522BA5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C30C2319C671A500522BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C30C6219C673DC00522BA5 /* Tag.m in Sources */,
+				17FDAA6919CF3A8800519D3E /* iRememberFindController.m in Sources */,
+				17C30C3719C671A500522BA5 /* main.m in Sources */,
+				17141BF619E1F9700056ED92 /* TagSvcSQLite.m in Sources */,
+				17C30C4119C671A500522BA5 /* iRememberViewController.m in Sources */,
+				1737055E19D7B2A300A7139F /* TagSvcArchive.m in Sources */,
+				17FDAA6619CF252800519D3E /* iRememberMainController.m in Sources */,
+				17C30C3B19C671A500522BA5 /* iRememberAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C30C4419C671A500522BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17141BF819E200430056ED92 /* SQLtests.m in Sources */,
+				17C30C5619C671A500522BA5 /* iRememberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C30C4E19C671A500522BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C30C2619C671A500522BA5 /* iRemember */;
+			targetProxy = 17C30C4D19C671A500522BA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17C30C3319C671A500522BA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C30C3419C671A500522BA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17C30C3C19C671A500522BA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C30C3D19C671A500522BA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17C30C5219C671A500522BA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C30C5319C671A500522BA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17C30C5719C671A500522BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17C30C5819C671A500522BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C30C5A19C671A500522BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRemember/iRemember-Prefix.pch";
+				INFOPLIST_FILE = "iRemember/iRemember-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17C30C5B19C671A500522BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRemember/iRemember-Prefix.pch";
+				INFOPLIST_FILE = "iRemember/iRemember-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17C30C5D19C671A500522BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iRemember.app/iRemember";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRemember/iRemember-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iRememberTests/iRememberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17C30C5E19C671A500522BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iRemember.app/iRemember";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRemember/iRemember-Prefix.pch";
+				INFOPLIST_FILE = "iRememberTests/iRememberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C30C2219C671A500522BA5 /* Build configuration list for PBXProject "iRemember" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C30C5719C671A500522BA5 /* Debug */,
+				17C30C5819C671A500522BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C30C5919C671A500522BA5 /* Build configuration list for PBXNativeTarget "iRemember" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C30C5A19C671A500522BA5 /* Debug */,
+				17C30C5B19C671A500522BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C30C5C19C671A500522BA5 /* Build configuration list for PBXNativeTarget "iRememberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C30C5D19C671A500522BA5 /* Debug */,
+				17C30C5E19C671A500522BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C30C1F19C671A500522BA5 /* Project object */;
+}
